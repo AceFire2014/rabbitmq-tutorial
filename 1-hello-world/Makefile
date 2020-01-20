@@ -1,4 +1,4 @@
-.PHONY: bash build build-img build-dev clean run test update-requirements
+.PHONY: bash build build-img clean run test
 
 IMG=andytsai/rabbitmq-tutorial-1-hello-world
 export TAG ?= $(shell git rev-parse --abbrev-ref HEAD)
