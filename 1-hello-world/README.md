@@ -1,5 +1,6 @@
 # Tutorial 1: Hello World
 
+This service is implemented with [tutorial 1](https://www.rabbitmq.com/tutorials/tutorial-one-python.html)
 There are three terminals should be created:
 
 1. Terminal 1: run the rabbitmq service: `docker-compose up`
