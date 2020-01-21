@@ -3,7 +3,7 @@
 This service is implemented with [tutorial 2](https://www.rabbitmq.com/tutorials/tutorial-two-python.html)
 There are four terminals should be opened:
 
-## Round-robin dispatching
+## Step 1 : Round-robin dispatching
 
 1. Terminal 1: run the rabbitmq service: `docker-compose up`
 2. Terminal 3 and 4: run this service with `worker`:
@@ -20,7 +20,7 @@ There are four terminals should be opened:
       5. `python3.6 round-robin-dispatching/new_task.py Fifth message.....`
 4. Let's see what is delivered to the workers
 
-## Message Acknowledgement
+## Step 2: Message Acknowledgement
 
 1. Terminal 1: run the rabbitmq service: `docker-compose up`
 2. Terminal 3 and 4: run this service with `worker`:
@@ -37,7 +37,7 @@ There are four terminals should be opened:
       5. `python3.6 message-acknowledgement/new_task.py Fifth message.....`
 4. Let's see what is delivered to the workers
 
-## message durability
+## Step 3: message durability
 
 1. Terminal 1: run the rabbitmq service: `docker-compose up`
 2. Terminal 3 and 4: run this service with `worker`:
@@ -54,7 +54,7 @@ There are four terminals should be opened:
       5. `python3.6 message-durability/new_task.py Fifth message.....`
 4. Let's see what is delivered to the workers
 
-## fair dispatch
+## Step 4: fair dispatch
 
 1. Terminal 1: run the rabbitmq service: `docker-compose up`
 2. Terminal 3 and 4: run this service with `worker`:
