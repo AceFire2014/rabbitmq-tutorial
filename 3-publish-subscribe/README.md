@@ -1,4 +1,4 @@
-# Tutorial 2: Work Queues
+# Tutorial 3: Publish-Subscribe
 
 This service is implemented with [tutorial 3](https://www.rabbitmq.com/tutorials/tutorial-three-python.html)
 There are four terminals should be opened:
